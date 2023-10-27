@@ -164,6 +164,13 @@
         color: #333;
         background-color: #fff;
       }
+      .letra-disclaimer {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+      }
 
       body
         > div:nth-child(1)
@@ -293,9 +300,14 @@
         text-align: center;
       }
 
+    
+
+
       .image-banner {
         width: 100%; /* Hace que la imagen tenga un 100% de ancho y ocupe todo el ancho del div */
       }
+      
+  
 
       .text-styles {
         display: flex; /* flexbox para centrar el contenido */
@@ -388,6 +400,7 @@
           allowfullscreen
         ></iframe>
       </div>
+      <p>El video muestra una versión distinta de color del mismo producto.</p>
     </div>
 
     <br />
@@ -426,7 +439,7 @@
 
       <div class="imagen-container">
         <img src="IMG/W2S-logo.svg" class="img-fluid image-banner mb-3" />
-        <h6 class="text-styles unalinea">
+        <h6 class="text-styles ">
           <strong>W2S</strong>
         </h6>
       </div>
@@ -595,15 +608,12 @@
     </div>
     <!-- Texto Legales-->
     <div class="container">
-      <section>
-        <p class="letra">*vs. secar y estilizar con productos Remington, en pruebas de laboratorio.</p>
-      </section>
+      <ul>
+        <li style="list-style-type: none;" class="letra-disclaimer">*vs. secar y estilizar con productos Remington, en pruebas de laboratorio.</li>
+        <li style="list-style-type: none;" class="letra-disclaimer">**vs. secador estándar de Remington. </li>
+      </ul>
     </div>
-    <div class="container">
-      <section>
-        <p class="letra">**vs. secador estándar de Remington. </p>
-      </section>
-    </div>
+
     <br />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
